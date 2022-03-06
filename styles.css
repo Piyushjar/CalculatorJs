@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(152, 210, 248);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  margin: 0px 150px 0px 150px;
+}
+
+.calculator {
+  background-color: rgb(238, 86, 40);
+  width: 50%;
+  margin: 5px;
+  box-shadow: 0px 0px 30px 4px rgb(97, 207, 235);
+}
+#input {
+  height: 70px;
+  padding: 20px 20px;
+  font-size: 50px;
+  background-color: rgb(4, 165, 125);
+  text-align: right;
+  font-family: "Trebuchet MS", sans-serif;
+  color: azure;
+  border: 1px solid black;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.button {
+  border: 1px solid black;
+  font-size: 25px;
+  padding-top: 5px;
+  height: 55px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+}
+.button:hover {
+  background-color: rgb(101, 240, 187);
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+#equal {
+  background-color: rgb(40, 40, 238);
+  color: white;
+  grid-row: span 4;
+  height: 241px;
+}
+
+.operator {
+  background-color: antiquewhite;
+}
+.clearInput {
+  background-color: rgb(223, 193, 252);
+}
+
+.historyContainer {
+  background-color: rgba(24, 2, 85, 0.87);
+  margin: 5px;
+  min-height: 50%;
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(247, 39, 74);
+  border-radius: 20px;
+}
+
+.history {
+  color: aliceblue;
+}
